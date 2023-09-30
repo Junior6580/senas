@@ -4,6 +4,7 @@ $objeto = new Conexion();
 $conexion = $objeto->Conectar();
 
 
+
 $consulta = "SELECT * FROM aprendiz";
 $resultado = $conexion->prepare($consulta);
 $resultado->execute();
